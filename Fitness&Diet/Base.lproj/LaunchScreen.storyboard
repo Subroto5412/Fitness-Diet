@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash_image" translatesAutoresizingMaskIntoConstraints="NO" id="QWP-ec-PIo">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zDb-Hk-rBt">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="330"/>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash_icon" translatesAutoresizingMaskIntoConstraints="NO" id="Kn8-Lh-Jb4">
+                                <rect key="frame" x="85" y="330" width="205" height="130"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="zDb-Hk-rBt" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="20h-MY-Wnn"/>
+                            <constraint firstItem="Kn8-Lh-Jb4" firstAttribute="height" secondItem="QWP-ec-PIo" secondAttribute="height" multiplier="133.62:834" id="2Ek-EP-7L2"/>
+                            <constraint firstItem="QWP-ec-PIo" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="6py-Zj-aSP"/>
+                            <constraint firstAttribute="bottom" secondItem="QWP-ec-PIo" secondAttribute="bottom" id="Dix-5r-bzt"/>
+                            <constraint firstItem="QWP-ec-PIo" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="EfN-Zf-K3H"/>
+                            <constraint firstItem="Kn8-Lh-Jb4" firstAttribute="top" secondItem="zDb-Hk-rBt" secondAttribute="bottom" id="Fsz-uv-Ohu"/>
+                            <constraint firstItem="Kn8-Lh-Jb4" firstAttribute="centerX" secondItem="QWP-ec-PIo" secondAttribute="centerX" id="I54-l9-Fmw"/>
+                            <constraint firstItem="Kn8-Lh-Jb4" firstAttribute="width" secondItem="QWP-ec-PIo" secondAttribute="width" multiplier="205:375" id="Qk1-FP-Q81"/>
+                            <constraint firstItem="zDb-Hk-rBt" firstAttribute="height" secondItem="QWP-ec-PIo" secondAttribute="height" multiplier="339:834" id="Vcj-SR-4de"/>
+                            <constraint firstAttribute="trailing" secondItem="QWP-ec-PIo" secondAttribute="trailing" id="jzj-4R-Ngo"/>
+                            <constraint firstItem="zDb-Hk-rBt" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="qcI-5g-Jzt"/>
+                            <constraint firstAttribute="trailing" secondItem="zDb-Hk-rBt" secondAttribute="trailing" id="trF-6v-EKz"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="k7Q-Jl-kLS"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="splash_icon" width="206" height="136"/>
+        <image name="splash_image" width="375" height="812"/>
+    </resources>
+</document>

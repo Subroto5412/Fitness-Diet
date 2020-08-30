@@ -1,0 +1,792 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5910C7EC24C241AF00E68776 /* FADActivityTrackerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5910C7EB24C241AF00E68776 /* FADActivityTrackerController.swift */; };
+		595BBDBF24C26024007A7C6C /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595BBDBD24C26024007A7C6C /* ContainerViewController.swift */; };
+		595BBDC024C26024007A7C6C /* EmptySegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595BBDBE24C26024007A7C6C /* EmptySegue.swift */; };
+		595BBDC224C26122007A7C6C /* FADListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595BBDC124C26122007A7C6C /* FADListController.swift */; };
+		595BBDC424C26133007A7C6C /* FADMapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595BBDC324C26132007A7C6C /* FADMapController.swift */; };
+		595BBDC624C261AC007A7C6C /* FADLocationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595BBDC524C261AC007A7C6C /* FADLocationController.swift */; };
+		595BBDC824C26561007A7C6C /* FADListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595BBDC724C26561007A7C6C /* FADListCell.swift */; };
+		597B7A0624BF13F800CE3423 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597B7A0524BF13F800CE3423 /* AppDelegate.swift */; };
+		597B7A0824BF13F800CE3423 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597B7A0724BF13F800CE3423 /* SceneDelegate.swift */; };
+		597B7A0A24BF13F800CE3423 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597B7A0924BF13F800CE3423 /* ViewController.swift */; };
+		597B7A0D24BF13F800CE3423 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 597B7A0B24BF13F800CE3423 /* Main.storyboard */; };
+		597B7A0F24BF13FC00CE3423 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 597B7A0E24BF13FC00CE3423 /* Assets.xcassets */; };
+		597B7A1224BF13FC00CE3423 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 597B7A1024BF13FC00CE3423 /* LaunchScreen.storyboard */; };
+		597B7A1B24BF685500CE3423 /* FADPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597B7A1A24BF685500CE3423 /* FADPageViewController.swift */; };
+		597B7A1D24BF68FE00CE3423 /* FADHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597B7A1C24BF68FE00CE3423 /* FADHomeController.swift */; };
+		597B7A1F24BF692200CE3423 /* FADPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597B7A1E24BF692200CE3423 /* FADPageController.swift */; };
+		597B7A2224BF760B00CE3423 /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597B7A2124BF760B00CE3423 /* NSObject+Extension.swift */; };
+		597B7A2624BF88BC00CE3423 /* FADLoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597B7A2524BF88BC00CE3423 /* FADLoginController.swift */; };
+		597B7A2824BF88D400CE3423 /* FADSignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597B7A2724BF88D400CE3423 /* FADSignUpController.swift */; };
+		599B1EC124C779E100F39919 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599B1EC024C779E100F39919 /* Utils.swift */; };
+		59A15D3424D76224002EAE7D /* FADActivityTrackerSaveController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A15D3324D76224002EAE7D /* FADActivityTrackerSaveController.swift */; };
+		59A15D3624D76898002EAE7D /* FADActivityTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A15D3524D76898002EAE7D /* FADActivityTracker.swift */; };
+		59A15D3824D769D2002EAE7D /* FADActivityTrackerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A15D3724D769D2002EAE7D /* FADActivityTrackerViewModel.swift */; };
+		59A36C4324D4AD09005A4C3D /* FADFitnessTipsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A36C4224D4AD09005A4C3D /* FADFitnessTipsController.swift */; };
+		59A36C4524D4AD30005A4C3D /* FADFitnessTipsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A36C4424D4AD30005A4C3D /* FADFitnessTipsCell.swift */; };
+		59A5B9FC24C09AF500521B7A /* FADHomeBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A5B9FB24C09AF500521B7A /* FADHomeBody.swift */; };
+		59A5B9FE24C09B3E00521B7A /* FADHomeBody.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59A5B9FD24C09B3E00521B7A /* FADHomeBody.xib */; };
+		59A5BA0024C0A97700521B7A /* FADXibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A5B9FF24C0A97700521B7A /* FADXibView.swift */; };
+		59A5BA0324C0AA0000521B7A /* FADHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A5BA0224C0AA0000521B7A /* FADHomeViewController.swift */; };
+		59A5BA0524C0B3EF00521B7A /* FADFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A5BA0424C0B3EE00521B7A /* FADFooter.swift */; };
+		59A5BA0724C0B40B00521B7A /* FADFooter.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59A5BA0624C0B40B00521B7A /* FADFooter.xib */; };
+		59A5BA0A24C0E24B00521B7A /* FADDietPlanController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A5BA0924C0E24B00521B7A /* FADDietPlanController.swift */; };
+		59A5BA0C24C0E27400521B7A /* FADDietPlanModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A5BA0B24C0E27400521B7A /* FADDietPlanModel.swift */; };
+		59A5BA0E24C0E28F00521B7A /* FADDietPlanDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A5BA0D24C0E28F00521B7A /* FADDietPlanDataManager.swift */; };
+		59A5BA1024C0E32200521B7A /* FADDietPlanCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A5BA0F24C0E32200521B7A /* FADDietPlanCell.swift */; };
+		59B5C60524D816000079EC97 /* FADActivityTrackerChartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B5C60424D816000079EC97 /* FADActivityTrackerChartController.swift */; };
+		59B5C60724D817E70079EC97 /* CommonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B5C60624D817E70079EC97 /* CommonData.swift */; };
+		59B5C60A24D830150079EC97 /* FADProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B5C60924D830150079EC97 /* FADProfileController.swift */; };
+		59CF320724C49378000CC5E0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 59CF320624C49378000CC5E0 /* GoogleService-Info.plist */; };
+		59D921EF24C3806000BDB715 /* FADMusicController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D921EE24C3806000BDB715 /* FADMusicController.swift */; };
+		59D921F124C3807D00BDB715 /* FADMinMusicPlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D921F024C3807D00BDB715 /* FADMinMusicPlayerController.swift */; };
+		59D921F324C381C700BDB715 /* FADMusicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D921F224C381C700BDB715 /* FADMusicCell.swift */; };
+		59D921F524C38B0800BDB715 /* FADMaxMusicPlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D921F424C38B0800BDB715 /* FADMaxMusicPlayerController.swift */; };
+		59EF32C824CF522E00E79F79 /* FADDietCalculatorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EF32C724CF522E00E79F79 /* FADDietCalculatorController.swift */; };
+		59EF32CA24CF54AF00E79F79 /* FADDietCalBody.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59EF32C924CF54AF00E79F79 /* FADDietCalBody.xib */; };
+		59EF32CC24CF68B600E79F79 /* FADDietCalBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EF32CB24CF68B600E79F79 /* FADDietCalBody.swift */; };
+		59EF32CE24CF79AA00E79F79 /* FADBMIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EF32CD24CF79AA00E79F79 /* FADBMIController.swift */; };
+		59EF32D024CF79BF00E79F79 /* FADCalorieController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EF32CF24CF79BF00E79F79 /* FADCalorieController.swift */; };
+		59EF32D224CF79D200E79F79 /* FADBMRController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EF32D124CF79D200E79F79 /* FADBMRController.swift */; };
+		59EF32D424CF79E700E79F79 /* FADIdealWeightController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EF32D324CF79E700E79F79 /* FADIdealWeightController.swift */; };
+		59EF32D624CF7A0500E79F79 /* FADHealthyWeightController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EF32D524CF7A0500E79F79 /* FADHealthyWeightController.swift */; };
+		59EF32D824CF7A1900E79F79 /* FADLeanBodyMassController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EF32D724CF7A1900E79F79 /* FADLeanBodyMassController.swift */; };
+		59F987D624C5E27E00A57199 /* FADAgeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F987D524C5E27E00A57199 /* FADAgeController.swift */; };
+		59F987D824C5E29000A57199 /* FADGenderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F987D724C5E29000A57199 /* FADGenderController.swift */; };
+		59F987DA24C5E2A900A57199 /* FADHeightController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F987D924C5E2A900A57199 /* FADHeightController.swift */; };
+		59F987E224C6048A00A57199 /* FADWeightController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F987E124C6048A00A57199 /* FADWeightController.swift */; };
+		59FD7C8624CB2B9C00582EF7 /* audio_list.plist in Resources */ = {isa = PBXBuildFile; fileRef = 59FD7C8524CB2B9C00582EF7 /* audio_list.plist */; };
+		59FD7C8D24CB2F4E00582EF7 /* Billie Jean.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 59FD7C8A24CB2F4D00582EF7 /* Billie Jean.mp3 */; };
+		59FD7C8E24CB2F4E00582EF7 /* Baby Be Mine.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 59FD7C8B24CB2F4E00582EF7 /* Baby Be Mine.mp3 */; };
+		59FD7C8F24CB2F4E00582EF7 /* Beat It.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 59FD7C8C24CB2F4E00582EF7 /* Beat It.mp3 */; };
+		59FD7C9324CB2F5E00582EF7 /* demo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 59FD7C9024CB2F5E00582EF7 /* demo1.png */; };
+		59FD7C9424CB2F5E00582EF7 /* demo2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59FD7C9124CB2F5E00582EF7 /* demo2.jpg */; };
+		59FD7C9524CB2F5E00582EF7 /* demo3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59FD7C9224CB2F5E00582EF7 /* demo3.jpg */; };
+		C4B7155CE1093230CBF10C16 /* Pods_Fitness_Diet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA145DBEB54F3154F4526252 /* Pods_Fitness_Diet.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5910C7EB24C241AF00E68776 /* FADActivityTrackerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FADActivityTrackerController.swift; sourceTree = "<group>"; };
+		595BBDBD24C26024007A7C6C /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		595BBDBE24C26024007A7C6C /* EmptySegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptySegue.swift; sourceTree = "<group>"; };
+		595BBDC124C26122007A7C6C /* FADListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FADListController.swift; sourceTree = "<group>"; };
+		595BBDC324C26132007A7C6C /* FADMapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FADMapController.swift; sourceTree = "<group>"; };
+		595BBDC524C261AC007A7C6C /* FADLocationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FADLocationController.swift; sourceTree = "<group>"; };
+		595BBDC724C26561007A7C6C /* FADListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FADListCell.swift; sourceTree = "<group>"; };
+		597B7A0224BF13F800CE3423 /* Fitness&Diet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fitness&Diet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		597B7A0524BF13F800CE3423 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		597B7A0724BF13F800CE3423 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		597B7A0924BF13F800CE3423 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		597B7A0C24BF13F800CE3423 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		597B7A0E24BF13FC00CE3423 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		597B7A1124BF13FC00CE3423 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		597B7A1324BF13FC00CE3423 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		597B7A1A24BF685500CE3423 /* FADPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FADPageViewController.swift; sourceTree = "<group>"; };
+		597B7A1C24BF68FE00CE3423 /* FADHomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FADHomeController.swift; sourceTree = "<group>"; };
+		597B7A1E24BF692200CE3423 /* FADPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FADPageController.swift; sourceTree = "<group>"; };
+		597B7A2124BF760B00CE3423 /* NSObject+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Extension.swift"; sourceTree = "<group>"; };
+		597B7A2524BF88BC00CE3423 /* FADLoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FADLoginController.swift; sourceTree = "<group>"; };
+		597B7A2724BF88D400CE3423 /* FADSignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FADSignUpController.swift; sourceTree = "<group>"; };
+		599B1EC024C779E100F39919 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		59A15D3324D76224002EAE7D /* FADActivityTrackerSaveController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FADActivityTrackerSaveController.swift; sourceTree = "<group>"; };
+		59A15D3524D76898002EAE7D /* FADActivityTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FADActivityTracker.swift; sourceTree = "<group>"; };
+		59A15D3724D769D2002EAE7D /* FADActivityTrackerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FADActivityTrackerViewModel.swift; sourceTree = "<group>"; };
+		59A36C4224D4AD09005A4C3D /* FADFitnessTipsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FADFitnessTipsController.swift; sourceTree = "<group>"; };
+		59A36C4424D4AD30005A4C3D /* FADFitnessTipsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FADFitnessTipsCell.swift; sourceTree = "<group>"; };
+		59A5B9FB24C09AF500521B7A /* FADHomeBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FADHomeBody.swift; sourceTree = "<group>"; };
+		59A5B9FD24C09B3E00521B7A /* FADHomeBody.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FADHomeBody.xib; sourceTree = "<group>"; };
+		59A5B9FF24C0A97700521B7A /* FADXibView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FADXibView.swift; sourceTree = "<group>"; };
+		59A5BA0224C0AA0000521B7A /* FADHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FADHomeViewController.swift; sourceTree = "<group>"; };
+		59A5BA0424C0B3EE00521B7A /* FADFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FADFooter.swift; sourceTree = "<group>"; };
+		59A5BA0624C0B40B00521B7A /* FADFooter.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FADFooter.xib; sourceTree = "<group>"; };
+		59A5BA0924C0E24B00521B7A /* FADDietPlanController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FADDietPlanController.swift; sourceTree = "<group>"; };
+		59A5BA0B24C0E27400521B7A /* FADDietPlanModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FADDietPlanModel.swift; sourceTree = "<group>"; };
+		59A5BA0D24C0E28F00521B7A /* FADDietPlanDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FADDietPlanDataManager.swift; sourceTree = "<group>"; };
+		59A5BA0F24C0E32200521B7A /* FADDietPlanCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FADDietPlanCell.swift; sourceTree = "<group>"; };
+		59B5C60424D816000079EC97 /* FADActivityTrackerChartController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FADActivityTrackerChartController.swift; sourceTree = "<group>"; };
+		59B5C60624D817E70079EC97 /* CommonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonData.swift; sourceTree = "<group>"; };
+		59B5C60924D830150079EC97 /* FADProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FADProfileController.swift; sourceTree = "<group>"; };
+		59CF320624C49378000CC5E0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		59D921EE24C3806000BDB715 /* FADMusicController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FADMusicController.swift; sourceTree = "<group>"; };
+		59D921F024C3807D00BDB715 /* FADMinMusicPlayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FADMinMusicPlayerController.swift; sourceTree = "<group>"; };
+		59D921F224C381C700BDB715 /* FADMusicCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FADMusicCell.swift; sourceTree = "<group>"; };
+		59D921F424C38B0800BDB715 /* FADMaxMusicPlayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FADMaxMusicPlayerController.swift; sourceTree = "<group>"; };
+		59EF32C724CF522E00E79F79 /* FADDietCalculatorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FADDietCalculatorController.swift; sourceTree = "<group>"; };
+		59EF32C924CF54AF00E79F79 /* FADDietCalBody.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FADDietCalBody.xib; sourceTree = "<group>"; };
+		59EF32CB24CF68B600E79F79 /* FADDietCalBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FADDietCalBody.swift; sourceTree = "<group>"; };
+		59EF32CD24CF79AA00E79F79 /* FADBMIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FADBMIController.swift; sourceTree = "<group>"; };
+		59EF32CF24CF79BF00E79F79 /* FADCalorieController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FADCalorieController.swift; sourceTree = "<group>"; };
+		59EF32D124CF79D200E79F79 /* FADBMRController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FADBMRController.swift; sourceTree = "<group>"; };
+		59EF32D324CF79E700E79F79 /* FADIdealWeightController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FADIdealWeightController.swift; sourceTree = "<group>"; };
+		59EF32D524CF7A0500E79F79 /* FADHealthyWeightController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FADHealthyWeightController.swift; sourceTree = "<group>"; };
+		59EF32D724CF7A1900E79F79 /* FADLeanBodyMassController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FADLeanBodyMassController.swift; sourceTree = "<group>"; };
+		59F987D524C5E27E00A57199 /* FADAgeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FADAgeController.swift; sourceTree = "<group>"; };
+		59F987D724C5E29000A57199 /* FADGenderController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FADGenderController.swift; sourceTree = "<group>"; };
+		59F987D924C5E2A900A57199 /* FADHeightController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FADHeightController.swift; sourceTree = "<group>"; };
+		59F987E124C6048A00A57199 /* FADWeightController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FADWeightController.swift; sourceTree = "<group>"; };
+		59FD7C8524CB2B9C00582EF7 /* audio_list.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = audio_list.plist; sourceTree = "<group>"; };
+		59FD7C8A24CB2F4D00582EF7 /* Billie Jean.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Billie Jean.mp3"; sourceTree = "<group>"; };
+		59FD7C8B24CB2F4E00582EF7 /* Baby Be Mine.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Baby Be Mine.mp3"; sourceTree = "<group>"; };
+		59FD7C8C24CB2F4E00582EF7 /* Beat It.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Beat It.mp3"; sourceTree = "<group>"; };
+		59FD7C9024CB2F5E00582EF7 /* demo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo1.png; sourceTree = "<group>"; };
+		59FD7C9124CB2F5E00582EF7 /* demo2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = demo2.jpg; sourceTree = "<group>"; };
+		59FD7C9224CB2F5E00582EF7 /* demo3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = demo3.jpg; sourceTree = "<group>"; };
+		73B607E9FE6F4A1772987AA0 /* Pods-Fitness&Diet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fitness&Diet.release.xcconfig"; path = "Target Support Files/Pods-Fitness&Diet/Pods-Fitness&Diet.release.xcconfig"; sourceTree = "<group>"; };
+		CA145DBEB54F3154F4526252 /* Pods_Fitness_Diet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fitness_Diet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D352B2871C8165B1D9884EF7 /* Pods-Fitness&Diet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fitness&Diet.debug.xcconfig"; path = "Target Support Files/Pods-Fitness&Diet/Pods-Fitness&Diet.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		597B79FF24BF13F800CE3423 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4B7155CE1093230CBF10C16 /* Pods_Fitness_Diet.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5910C7EA24C2418200E68776 /* ActivityTracker */ = {
+			isa = PBXGroup;
+			children = (
+				5910C7EB24C241AF00E68776 /* FADActivityTrackerController.swift */,
+				59A15D3324D76224002EAE7D /* FADActivityTrackerSaveController.swift */,
+				59A15D3524D76898002EAE7D /* FADActivityTracker.swift */,
+				59A15D3724D769D2002EAE7D /* FADActivityTrackerViewModel.swift */,
+			);
+			path = ActivityTracker;
+			sourceTree = "<group>";
+		};
+		5958166924C76F490024B91C /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				599B1EC024C779E100F39919 /* Utils.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		595BBDBC24C25FF4007A7C6C /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				595BBDBD24C26024007A7C6C /* ContainerViewController.swift */,
+				595BBDBE24C26024007A7C6C /* EmptySegue.swift */,
+				595BBDC124C26122007A7C6C /* FADListController.swift */,
+				595BBDC324C26132007A7C6C /* FADMapController.swift */,
+				595BBDC524C261AC007A7C6C /* FADLocationController.swift */,
+				595BBDC724C26561007A7C6C /* FADListCell.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		597B79F924BF13F800CE3423 = {
+			isa = PBXGroup;
+			children = (
+				597B7A0424BF13F800CE3423 /* Fitness&Diet */,
+				597B7A0324BF13F800CE3423 /* Products */,
+				5D5662AFDA211E3EF23F73C5 /* Pods */,
+				A84D2DDF526C82C1F436B9DD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		597B7A0324BF13F800CE3423 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				597B7A0224BF13F800CE3423 /* Fitness&Diet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		597B7A0424BF13F800CE3423 /* Fitness&Diet */ = {
+			isa = PBXGroup;
+			children = (
+				59B5C60824D82FF20079EC97 /* Profile */,
+				59B5C60324D815C50079EC97 /* Chart */,
+				59A36C4124D4ACE6005A4C3D /* FitnessTip */,
+				59EF32C624CF51F000E79F79 /* DietCalculator */,
+				5958166924C76F490024B91C /* Utility */,
+				59F987D424C5E24600A57199 /* PersonalInfo */,
+				59D921ED24C3804C00BDB715 /* Music */,
+				595BBDBC24C25FF4007A7C6C /* Map */,
+				5910C7EA24C2418200E68776 /* ActivityTracker */,
+				59A5BA0824C0E21A00521B7A /* DietPlan */,
+				59A5BA0124C0A9E100521B7A /* Home */,
+				597B7A2424BF889D00CE3423 /* SignUp */,
+				597B7A2324BF888300CE3423 /* Login */,
+				597B7A2024BF75EF00CE3423 /* Extension */,
+				597B7A1924BF680200CE3423 /* PageController */,
+				59CF320624C49378000CC5E0 /* GoogleService-Info.plist */,
+				597B7A0524BF13F800CE3423 /* AppDelegate.swift */,
+				597B7A0724BF13F800CE3423 /* SceneDelegate.swift */,
+				597B7A0924BF13F800CE3423 /* ViewController.swift */,
+				597B7A0B24BF13F800CE3423 /* Main.storyboard */,
+				597B7A0E24BF13FC00CE3423 /* Assets.xcassets */,
+				597B7A1024BF13FC00CE3423 /* LaunchScreen.storyboard */,
+				597B7A1324BF13FC00CE3423 /* Info.plist */,
+			);
+			path = "Fitness&Diet";
+			sourceTree = "<group>";
+		};
+		597B7A1924BF680200CE3423 /* PageController */ = {
+			isa = PBXGroup;
+			children = (
+				597B7A1A24BF685500CE3423 /* FADPageViewController.swift */,
+				597B7A1C24BF68FE00CE3423 /* FADHomeController.swift */,
+				597B7A1E24BF692200CE3423 /* FADPageController.swift */,
+			);
+			path = PageController;
+			sourceTree = "<group>";
+		};
+		597B7A2024BF75EF00CE3423 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				59A5B9FF24C0A97700521B7A /* FADXibView.swift */,
+				597B7A2124BF760B00CE3423 /* NSObject+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		597B7A2324BF888300CE3423 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				597B7A2524BF88BC00CE3423 /* FADLoginController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		597B7A2424BF889D00CE3423 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				597B7A2724BF88D400CE3423 /* FADSignUpController.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		59A36C4124D4ACE6005A4C3D /* FitnessTip */ = {
+			isa = PBXGroup;
+			children = (
+				59A36C4224D4AD09005A4C3D /* FADFitnessTipsController.swift */,
+				59A36C4424D4AD30005A4C3D /* FADFitnessTipsCell.swift */,
+			);
+			path = FitnessTip;
+			sourceTree = "<group>";
+		};
+		59A5B9FA24C09ACF00521B7A /* HomeBody */ = {
+			isa = PBXGroup;
+			children = (
+				59A5B9FB24C09AF500521B7A /* FADHomeBody.swift */,
+				59A5B9FD24C09B3E00521B7A /* FADHomeBody.xib */,
+				59A5BA0424C0B3EE00521B7A /* FADFooter.swift */,
+				59A5BA0624C0B40B00521B7A /* FADFooter.xib */,
+			);
+			path = HomeBody;
+			sourceTree = "<group>";
+		};
+		59A5BA0124C0A9E100521B7A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				59A5B9FA24C09ACF00521B7A /* HomeBody */,
+				59A5BA0224C0AA0000521B7A /* FADHomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		59A5BA0824C0E21A00521B7A /* DietPlan */ = {
+			isa = PBXGroup;
+			children = (
+				59A5BA0924C0E24B00521B7A /* FADDietPlanController.swift */,
+				59A5BA0B24C0E27400521B7A /* FADDietPlanModel.swift */,
+				59A5BA0D24C0E28F00521B7A /* FADDietPlanDataManager.swift */,
+				59A5BA0F24C0E32200521B7A /* FADDietPlanCell.swift */,
+			);
+			path = DietPlan;
+			sourceTree = "<group>";
+		};
+		59B5C60324D815C50079EC97 /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				59B5C60424D816000079EC97 /* FADActivityTrackerChartController.swift */,
+				59B5C60624D817E70079EC97 /* CommonData.swift */,
+			);
+			path = Chart;
+			sourceTree = "<group>";
+		};
+		59B5C60824D82FF20079EC97 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				59B5C60924D830150079EC97 /* FADProfileController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		59D921ED24C3804C00BDB715 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				59FD7C8724CB2F0200582EF7 /* Settings */,
+				59D921EE24C3806000BDB715 /* FADMusicController.swift */,
+				59D921F424C38B0800BDB715 /* FADMaxMusicPlayerController.swift */,
+				59D921F024C3807D00BDB715 /* FADMinMusicPlayerController.swift */,
+				59D921F224C381C700BDB715 /* FADMusicCell.swift */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		59EF32C624CF51F000E79F79 /* DietCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				59EF32C724CF522E00E79F79 /* FADDietCalculatorController.swift */,
+				59EF32C924CF54AF00E79F79 /* FADDietCalBody.xib */,
+				59EF32CB24CF68B600E79F79 /* FADDietCalBody.swift */,
+				59EF32CD24CF79AA00E79F79 /* FADBMIController.swift */,
+				59EF32CF24CF79BF00E79F79 /* FADCalorieController.swift */,
+				59EF32D124CF79D200E79F79 /* FADBMRController.swift */,
+				59EF32D324CF79E700E79F79 /* FADIdealWeightController.swift */,
+				59EF32D524CF7A0500E79F79 /* FADHealthyWeightController.swift */,
+				59EF32D724CF7A1900E79F79 /* FADLeanBodyMassController.swift */,
+			);
+			path = DietCalculator;
+			sourceTree = "<group>";
+		};
+		59F987D424C5E24600A57199 /* PersonalInfo */ = {
+			isa = PBXGroup;
+			children = (
+				59F987D524C5E27E00A57199 /* FADAgeController.swift */,
+				59F987D724C5E29000A57199 /* FADGenderController.swift */,
+				59F987D924C5E2A900A57199 /* FADHeightController.swift */,
+				59F987E124C6048A00A57199 /* FADWeightController.swift */,
+			);
+			path = PersonalInfo;
+			sourceTree = "<group>";
+		};
+		59FD7C8724CB2F0200582EF7 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				59FD7C8524CB2B9C00582EF7 /* audio_list.plist */,
+				59FD7C8924CB2F2300582EF7 /* Album Artwork */,
+				59FD7C8824CB2F1C00582EF7 /* music */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		59FD7C8824CB2F1C00582EF7 /* music */ = {
+			isa = PBXGroup;
+			children = (
+				59FD7C8B24CB2F4E00582EF7 /* Baby Be Mine.mp3 */,
+				59FD7C8C24CB2F4E00582EF7 /* Beat It.mp3 */,
+				59FD7C8A24CB2F4D00582EF7 /* Billie Jean.mp3 */,
+			);
+			path = music;
+			sourceTree = "<group>";
+		};
+		59FD7C8924CB2F2300582EF7 /* Album Artwork */ = {
+			isa = PBXGroup;
+			children = (
+				59FD7C9024CB2F5E00582EF7 /* demo1.png */,
+				59FD7C9124CB2F5E00582EF7 /* demo2.jpg */,
+				59FD7C9224CB2F5E00582EF7 /* demo3.jpg */,
+			);
+			path = "Album Artwork";
+			sourceTree = "<group>";
+		};
+		5D5662AFDA211E3EF23F73C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D352B2871C8165B1D9884EF7 /* Pods-Fitness&Diet.debug.xcconfig */,
+				73B607E9FE6F4A1772987AA0 /* Pods-Fitness&Diet.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A84D2DDF526C82C1F436B9DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA145DBEB54F3154F4526252 /* Pods_Fitness_Diet.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		597B7A0124BF13F800CE3423 /* Fitness&Diet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 597B7A1624BF13FC00CE3423 /* Build configuration list for PBXNativeTarget "Fitness&Diet" */;
+			buildPhases = (
+				AF20801CBD4491FE30C29B29 /* [CP] Check Pods Manifest.lock */,
+				597B79FE24BF13F800CE3423 /* Sources */,
+				597B79FF24BF13F800CE3423 /* Frameworks */,
+				597B7A0024BF13F800CE3423 /* Resources */,
+				116D5E7A53A091F9946175BD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fitness&Diet";
+			productName = "Fitness&Diet";
+			productReference = 597B7A0224BF13F800CE3423 /* Fitness&Diet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		597B79FA24BF13F800CE3423 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FAD;
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Sumon Opu";
+				TargetAttributes = {
+					597B7A0124BF13F800CE3423 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 597B79FD24BF13F800CE3423 /* Build configuration list for PBXProject "Fitness&Diet" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 597B79F924BF13F800CE3423;
+			productRefGroup = 597B7A0324BF13F800CE3423 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				597B7A0124BF13F800CE3423 /* Fitness&Diet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		597B7A0024BF13F800CE3423 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59EF32CA24CF54AF00E79F79 /* FADDietCalBody.xib in Resources */,
+				597B7A1224BF13FC00CE3423 /* LaunchScreen.storyboard in Resources */,
+				59FD7C8E24CB2F4E00582EF7 /* Baby Be Mine.mp3 in Resources */,
+				597B7A0F24BF13FC00CE3423 /* Assets.xcassets in Resources */,
+				59FD7C9324CB2F5E00582EF7 /* demo1.png in Resources */,
+				59A5B9FE24C09B3E00521B7A /* FADHomeBody.xib in Resources */,
+				59A5BA0724C0B40B00521B7A /* FADFooter.xib in Resources */,
+				59FD7C8D24CB2F4E00582EF7 /* Billie Jean.mp3 in Resources */,
+				59FD7C9424CB2F5E00582EF7 /* demo2.jpg in Resources */,
+				59FD7C8624CB2B9C00582EF7 /* audio_list.plist in Resources */,
+				59FD7C9524CB2F5E00582EF7 /* demo3.jpg in Resources */,
+				597B7A0D24BF13F800CE3423 /* Main.storyboard in Resources */,
+				59FD7C8F24CB2F4E00582EF7 /* Beat It.mp3 in Resources */,
+				59CF320724C49378000CC5E0 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		116D5E7A53A091F9946175BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fitness&Diet/Pods-Fitness&Diet-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fitness&Diet/Pods-Fitness&Diet-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fitness&Diet/Pods-Fitness&Diet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF20801CBD4491FE30C29B29 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fitness&Diet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		597B79FE24BF13F800CE3423 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				597B7A0A24BF13F800CE3423 /* ViewController.swift in Sources */,
+				59EF32D224CF79D200E79F79 /* FADBMRController.swift in Sources */,
+				59A5BA0C24C0E27400521B7A /* FADDietPlanModel.swift in Sources */,
+				597B7A1B24BF685500CE3423 /* FADPageViewController.swift in Sources */,
+				595BBDC824C26561007A7C6C /* FADListCell.swift in Sources */,
+				595BBDC024C26024007A7C6C /* EmptySegue.swift in Sources */,
+				59A5BA0324C0AA0000521B7A /* FADHomeViewController.swift in Sources */,
+				59F987D824C5E29000A57199 /* FADGenderController.swift in Sources */,
+				59A15D3824D769D2002EAE7D /* FADActivityTrackerViewModel.swift in Sources */,
+				597B7A0624BF13F800CE3423 /* AppDelegate.swift in Sources */,
+				59EF32CE24CF79AA00E79F79 /* FADBMIController.swift in Sources */,
+				59F987E224C6048A00A57199 /* FADWeightController.swift in Sources */,
+				597B7A2624BF88BC00CE3423 /* FADLoginController.swift in Sources */,
+				59A5BA0524C0B3EF00521B7A /* FADFooter.swift in Sources */,
+				59B5C60724D817E70079EC97 /* CommonData.swift in Sources */,
+				59D921F124C3807D00BDB715 /* FADMinMusicPlayerController.swift in Sources */,
+				59B5C60524D816000079EC97 /* FADActivityTrackerChartController.swift in Sources */,
+				5910C7EC24C241AF00E68776 /* FADActivityTrackerController.swift in Sources */,
+				59D921EF24C3806000BDB715 /* FADMusicController.swift in Sources */,
+				59A5B9FC24C09AF500521B7A /* FADHomeBody.swift in Sources */,
+				59A5BA0E24C0E28F00521B7A /* FADDietPlanDataManager.swift in Sources */,
+				597B7A1D24BF68FE00CE3423 /* FADHomeController.swift in Sources */,
+				59A36C4524D4AD30005A4C3D /* FADFitnessTipsCell.swift in Sources */,
+				59EF32C824CF522E00E79F79 /* FADDietCalculatorController.swift in Sources */,
+				595BBDC624C261AC007A7C6C /* FADLocationController.swift in Sources */,
+				59A5BA0A24C0E24B00521B7A /* FADDietPlanController.swift in Sources */,
+				595BBDC224C26122007A7C6C /* FADListController.swift in Sources */,
+				595BBDBF24C26024007A7C6C /* ContainerViewController.swift in Sources */,
+				59A36C4324D4AD09005A4C3D /* FADFitnessTipsController.swift in Sources */,
+				597B7A1F24BF692200CE3423 /* FADPageController.swift in Sources */,
+				59EF32D024CF79BF00E79F79 /* FADCalorieController.swift in Sources */,
+				59EF32D624CF7A0500E79F79 /* FADHealthyWeightController.swift in Sources */,
+				595BBDC424C26133007A7C6C /* FADMapController.swift in Sources */,
+				59EF32D824CF7A1900E79F79 /* FADLeanBodyMassController.swift in Sources */,
+				597B7A0824BF13F800CE3423 /* SceneDelegate.swift in Sources */,
+				59A15D3424D76224002EAE7D /* FADActivityTrackerSaveController.swift in Sources */,
+				59EF32CC24CF68B600E79F79 /* FADDietCalBody.swift in Sources */,
+				59F987DA24C5E2A900A57199 /* FADHeightController.swift in Sources */,
+				597B7A2224BF760B00CE3423 /* NSObject+Extension.swift in Sources */,
+				59A5BA1024C0E32200521B7A /* FADDietPlanCell.swift in Sources */,
+				59D921F324C381C700BDB715 /* FADMusicCell.swift in Sources */,
+				59D921F524C38B0800BDB715 /* FADMaxMusicPlayerController.swift in Sources */,
+				59A15D3624D76898002EAE7D /* FADActivityTracker.swift in Sources */,
+				59EF32D424CF79E700E79F79 /* FADIdealWeightController.swift in Sources */,
+				599B1EC124C779E100F39919 /* Utils.swift in Sources */,
+				597B7A2824BF88D400CE3423 /* FADSignUpController.swift in Sources */,
+				59F987D624C5E27E00A57199 /* FADAgeController.swift in Sources */,
+				59A5BA0024C0A97700521B7A /* FADXibView.swift in Sources */,
+				59B5C60A24D830150079EC97 /* FADProfileController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		597B7A0B24BF13F800CE3423 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				597B7A0C24BF13F800CE3423 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		597B7A1024BF13FC00CE3423 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				597B7A1124BF13FC00CE3423 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		597B7A1424BF13FC00CE3423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		597B7A1524BF13FC00CE3423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		597B7A1724BF13FC00CE3423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D352B2871C8165B1D9884EF7 /* Pods-Fitness&Diet.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fitness&Diet/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sumon.Fitness-Diet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		597B7A1824BF13FC00CE3423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73B607E9FE6F4A1772987AA0 /* Pods-Fitness&Diet.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fitness&Diet/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sumon.Fitness-Diet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		597B79FD24BF13F800CE3423 /* Build configuration list for PBXProject "Fitness&Diet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				597B7A1424BF13FC00CE3423 /* Debug */,
+				597B7A1524BF13FC00CE3423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		597B7A1624BF13FC00CE3423 /* Build configuration list for PBXNativeTarget "Fitness&Diet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				597B7A1724BF13FC00CE3423 /* Debug */,
+				597B7A1824BF13FC00CE3423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 597B79FA24BF13F800CE3423 /* Project object */;
+}
